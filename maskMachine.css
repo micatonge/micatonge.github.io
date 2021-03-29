@@ -1,0 +1,263 @@
+.parallax {
+    /* The image used */
+    background-image: url("IMG_3048.JPG");
+    /* Full height */
+    height: 23%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#haha{
+  height: 30px;
+  width: 100px;
+  background-color: pink;
+  margin-left: 5%;
+}
+.city{
+  margin-left: 5%;
+  width:200px;
+  height: 50px;
+}
+
+.findMachine{
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+h1{
+/*margin-top: 0%;*/
+color: #fff;
+font-size: 800%;
+/*margin-left: 35%;*/
+font-family: sans-serif;
+padding-top: 4%;
+}
+
+h2{
+  color: #fff;
+}
+
+h3{
+  color:  #04ac94;
+  padding-top: 10px;
+}
+
+h4{
+  color: #fff;
+}
+
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: #04ac94;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-top: -10%;
+}
+.alert.info {
+  background-color: #fff;
+  float: right;
+  opacity: 80%;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #04ac94;
+}
+ul::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+nav>ul>li {
+  float: left;
+  position: relative;
+}
+a#pink{
+  padding: 15px 70px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+
+
+}
+a#pink:hover{
+  color: white;
+
+}
+.dropdown{
+  display: inline-block;
+  position: relative;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #04ac94;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top:50px;
+  text-align: left;
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+
+}
+.dropdown-content a#pink:hover{
+  display: block;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+div.scrollmenu {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+div.scrollmenu a#pink {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+div.scrollmenu a#pink:hover {
+    background-color: #202021;
+
+}
+body, html {
+  height: 200%;
+}
+/* meet the team css */
+.header {
+  font-style: impact;
+  font-size: .5em}
+
+
+html {
+  box-sizing: border-box;
+
+}
+
+/*h1{
+  margin-left: 27%;
+}*/
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  margin-left: 100px;
+  padding: 0 8px;
+  display: inline;
+
+}
+
+
+@media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    align-self: center;
+  }
+}
+
+.card {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  display: inline;
+  background-color: #fff;
+  border: 10px solid fff;
+
+}
+
+.container {
+  padding: 0 16px;
+  text-align: center;
+  background-color: #fff;
+  /* display: inline;*/
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+
+}
+
+.title {
+  color: grey;
+}
+
+.fa {
+  color: black;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.video{
+    height:500px;
+    font-size:36px;
+    font-family:sans-serif;
+    text-align: center;
+}
