@@ -1,187 +1,133 @@
+<!-- <!DOCTYPE html>
 <html>
 <head>
-
-<title>Reveal & Relieve</title>
-<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<script>
-$(document).on('scroll', function() {
-    if($(this).scrollTop()>=$('header').position().top){
-        $('aside').addClass('slide');
-    }
-    
-    else {
-        $('aside').removeClass('slide');
-    }
-});
-
-</script>
-
-<link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family={text:Google Font}:400,700" rel="stylesheet">
-
-<style type="text/css">
-
-
-body {
-background: rgb(245, 216, 236);
-font-family: 'Poppins', sans-serif;
-font-size: 15px;
-margin: 0px;
-}
-
-
-a {
-    text-decoration:none;
-    color: rgb(71, 85, 71);
-}
-
-a:hover {
-    color: rgb(71, 85, 71);
-}
-
-
-
-
-header {
-    width:calc(100% - 30%);
-    left:30%;
-
-}
-
-.header {
-    margin:25vh auto 40vh 25%;
-    width:100%;
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:center;
-    margin-top: 50px;
-}
-
-/* h1 {
-    color: #3b5284;
-    font-size: 50px;
-} */
-aside {
-    
-    background: #E3DEF0;
-    position:fixed;
-    width:30%;
-    height:100vh;
-    top:0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-wrap:wrap;
-    left:0;
-
-}
-
-
-aside.slide {
-    width:16%;
-    transition:.6s;
-}
-aside, aside.slide {
-    z-index:-1;
-}
-
-.description {
-    margin-top:6px;
-    position:relative;
-    border:1px solid #eee;
-}
-.desc {
-    width: 500px;
-    padding:20px;
-    position:relative;
-    height: 100%;
-}
-
-.links {
-    border-top:1px solid #eee;
-    padding:20px;
-    background:rgba(0,0,0,.008);
-}
-
-.links a {
-    margin:0px 10px;
-    color: rgb(71, 85, 71);
-}
-
-
-
-header .im img {
-    max-width:480px;
-    display:block;
-    margin-left:auto;
-    border-radius:4px;
-    margin-right:auto;
-}
-
-
-.im {
-    position:relative;
-    transition:.6s;
-    overflow:hidden;
-}
-.ok {
-    padding-left: 100px;
-}
-
-
-@media (max-width:1000px){
-    
-.im img {
-    max-width:50%;
-}
-.desc, .links {
-    width:100%;
-}
-
-.links {
-    margin-top:10px;
-}
-.im {
-    width:100%!important;
-    margin-left:20px;
-    }
-}
-body, a {
-    cursor: url(cursor.png), auto;
-    }
-
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet"
+  type = "text/css"
+  href = "maskMachine.css" />
+<!-- Navigation -->
+<nav>
+<ul>
+  <li><a id="pink" href="maskMachine.html">Home</a></li>
+  <li class="dropdown"><a id="pink" href="vid.mov">Video</a>
+  </li>
+  <li class="dropdown"><a id="pink" href="https://linktr.ee/NationalMarineLifeCenter">See How to Help</a>
+    <ul class="dropdown-content">
+      <li><a id="pink" href ="findMachine.html">Find MaskRedemptions Near you</a></li>
+        </ul>
+  </li>
+</ul>
+</nav>
 </head>
-<body>
-    <aside>
-    </aside>
-<header>
-<div class="header">
-    <div class="im">
 
-        <img src="re.png">
-    </div>
-<div class="ok">
-<!-- <h1>Reveal & Relieve</h1> -->
-        <div class="description"> 
-            
-                <div class="desc">
-                    <div class="typeform-widget" data-url="https://form.typeform.com/to/Exzxxa75?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-                </div>
-        </div>
-    <div class="links">
-        <a href="/">Home</a>
-        <a href="https://linktr.ee/micatonge12">Let Us Help</a>
-    </div>  
-    </div>  
+<body>
+<div class="parallax">
+
+<h1 style="padding-top:15%">Lets clean up our masks the right way</h1>
+
 </div>
-</header>
-<main>
+
+<div class="alert info">
+<span class="closebtn">&times;</span>
+<i>Stay in Touch</i><br>Contact the MaskRedemption team 
+@MaskRedemption.project on <a href=" https://www.instagram.com/maskredemption.project/"> Instagram </a> </br>
+</div>
+<div class="parallax">
+<div class="video">
+
+    <h2 style="padding-top:5%"> Our Video </h2>
+    <h4>Lets look at our current state</h4>
+        <video width="320" height="240" controls src="vid.mov">
+            Your browser does not support the video tag.
+          </video>
+
+</div>
+</div>
+
+
+<div class="parallax">
+
+  <div class="header">
+  <h1 style="font-family: sans-serif"> We created this mess and it only got more messy</h1>
+
+  </div>
+
+  <body>
+    <br>
+
+      <div class="column">
+        <div class="card">
+          <img src="IMG_3040.JPG" alt="person with mask" style="width:100%">
+          <div class="container">
+            <h3 style="font-family: sans-serif"> First, we created a pandemic </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="IMG_3047.JPG" alt="Mask Mess" style="width:100%">
+          <div class="container">
+            <h3 style="font-family: sans-serif"> Then, a pile of masks we couldn't clean up </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="2.png" alt="Masks and Fish" style="width:100%">
+          <div class="container">
+            <h3 style="font-family: sans-serif"> Marine animals suffer from our mask waste</h3>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="parallax">
+
+      <div class="header">
+        <h1 style="font-family: sans-serif"> Lets hear the "excitement" from nature! </h1>
+
+        </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="4.png" alt="Fish Face" style="width:100%">
+          <div class="container">
+            <h3 style="font-family: sans-serif">Fish</h3>
+            <p class="title" style="font-family: sans-serif">Since the pandemic, I have had the chance to curate some beautiful outfits myself. The facemasksfloating in the ocean are perfecer for some bodycon dresses that wrap me till i die.<p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="pic1.JPG" alt="pic1" style="width:100%">
+          <div class="container">
+            <h3 style="font-family: sans-serif">Soil</h3>
+            <p class="title" style="font-family: sans-serif">These facemasks that humans throw out add something to my life..By mixing in with the soil and being there forever, facemasks have become my BFF.<p>
+          </div>
+        </div>
+      </div>
+            <div class="column">
+        <div class="card">
+          <img src="bird4.jpg" alt="bird" style="width:100%">
+          <div class="container">
+            <h3 style="font-family: sans-serif">Birds</h3>
+            <p class="title" style="font-family: sans-serif">Love the facemasks on the beach. They wrap arounnd my legs til they turn purple! Couldnt have asked for more! Best. Thing. Ever. <br>
+              #blessed<p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    </body>
+
+
 </body>
 </html>
+ -->
